@@ -1,0 +1,12 @@
+{% extends 'back/base_back.html.twig' %}
+
+{% block title %}Créer un utilisateur{% endblock %}
+
+{% block body_back %}
+    <h1 class="text-center m-3">Création d'un nouvel utilisateur</h1>
+    <a class="btn btn-danger m-3" href="{{ path('back_user_index') }}">Retour</a>
+
+    {{ include('back/user/_form.html.twig') }}
+
+    
+{% endblock %}

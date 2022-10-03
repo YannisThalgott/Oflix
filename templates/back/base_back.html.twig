@@ -1,0 +1,20 @@
+{% extends "base.html.twig" %}
+
+{% block subnav %}
+
+<ul class="nav container">
+    <li class="nav-item">
+        <a class="nav-link" href="{{ path('back_movie_index') }}">Séries et films</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="{{ path('back_user_index') }}">Utilisateurs</a>
+    </li>
+</ul>
+
+{% endblock %}
+
+{% block body %}
+<div class="container">
+    {% block body_back %}{% endblock %}
+</div>
+{% endblock %}
