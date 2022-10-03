@@ -1,4 +1,3 @@
-# Projet O'flix
+# Projet Oflix
 
-Projet similaire à Allociné.# Oflix
-# Oflix
+Projet similaire à Allociné.
